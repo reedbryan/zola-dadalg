@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{06764F90-A7A2-6235-4A63-8A186862263F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UI/GameLog.cs">
+    <Files>
+      <File FileName="Assets/AI/DadAlgNum1.cs" Line="11" Column="44" />
+      <File FileName="Assets/Management/Restrictions.cs" Line="292" Column="34" />
+      <File FileName="Assets/AI/DadAlgNum2.cs" Line="18" Column="32" />
+      <File FileName="Assets/Management/GameControl.cs" Line="23" Column="39" />
+      <File FileName="Assets/Management/Movement.cs" Line="90" Column="9" />
+      <File FileName="Assets/Cursor/Cursor.cs" Line="19" Column="25" />
+      <File FileName="Assets/Graphics/Graphics.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/GameLog.cs" Line="7" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Zola migration test" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="AI" expanded="True" />
+              <Node name="Board" expanded="True" />
+              <Node name="Cursor" expanded="True" />
+              <Node name="Graphics" expanded="True" />
+              <Node name="Management" expanded="True" />
+              <Node name="UI" expanded="True">
+                <Node name="GameLog.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7af02166-7cf9-4a3e-85f6-3a964c10d727" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
