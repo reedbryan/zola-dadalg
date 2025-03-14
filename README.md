@@ -22,8 +22,8 @@ See [GameController.cs](https://github.com/reedbryan/zola-dadalg/blob/main/Asset
 At the begining of the game, the board is drawn based on the perameters provided by the user in the game menu (see [DrawBoard.cs](https://github.com/reedbryan/zola-dadalg/blob/main/Assets/Board/DrawBoard.cs)). Zola is playable with different board sizes (standard being 6x6), this project supports 4x4, 6x6, & 8x8 tile boards with a notatble decrease in AI response time as the boardsize is increased.
 
 | 4x4 | 6x6 | 8x8 |
-|---------|---------|---------|
-| ![Alt text](https://raw.githubusercontent.com/reedbryan/CosmicCrucible/main/Assets/Sprites/UI/ReadmeScreenShots/collisionSC4.png) | ![Alt text](https://raw.githubusercontent.com/reedbryan/CosmicCrucible/main/Assets/Sprites/UI/ReadmeScreenShots/collisionSC5.png) | ![Alt text](https://raw.githubusercontent.com/reedbryan/CosmicCrucible/main/Assets/Sprites/UI/ReadmeScreenShots/collisionSC6.png) |
+|-----|-----|------|
+| ![Alt text](https://github.com/reedbryan/zola-dadalg/blob/main/Assets/README-SC/4x4sc.png) | ![Alt text](https://github.com/reedbryan/zola-dadalg/blob/main/Assets/README-SC/6x6sc.png) | ![Alt text](https://github.com/reedbryan/zola-dadalg/blob/main/Assets/README-SC/8x8sc.png) |
 
 ### AI algorithms
 
