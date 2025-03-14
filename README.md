@@ -1,6 +1,8 @@
 # zola-dadalg
 An implementation of a niche board game called Zola. Includes two algorithms proposed by my Dad.
 
+CHANGE
+
 ## **The Author:**
 My name is Reed Bryan and I am currently a software engineering undergrad at the University of Victoria.
 I started this project in 2022 and decided to finish and release it around 2 years later in December of 2023.
