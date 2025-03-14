@@ -12,6 +12,18 @@ I’d like to make it clear that I don’t take any credit for the game of Zola 
 ## **Project Features**
 
 ### Interface
+The game's interface is created from scratch, using only sample sprites provided in the editor upon creating the project.
+
+#### Board
+The board is made up of seperate game obejcts representing the each tile. Each tile object has an [Tile_ID.cs](https://github.com/reedbryan/zola-dadalg/blob/main/Assets/Tile/Tile_ID.cs) script to keep track of state as well as it's posistion on the board and a collider to allow for interactibility. This way when a tile is clicked, the correct data is sent to Game Controller to be evaluted and acted upon.
+
+See [GameController.cs](https://github.com/reedbryan/zola-dadalg/blob/main/Assets/Management/GameControl.cs) and [Movement.cs](https://github.com/reedbryan/zola-dadalg/blob/main/Assets/Management/Movement.cs) for the code.
+
+At the begining of the game, the board is drawn based on the perameters provided by the user in the game menu (see [DrawBoard.cs](https://github.com/reedbryan/zola-dadalg/blob/main/Assets/Board/DrawBoard.cs)). Zola is playable with different board sizes (standard being 6x6), this project supports 4x4, 6x6, & 8x8 tile boards with a notatble decrease in AI response time as the boardsize is increased.
+
+| 4x4 | 6x6 | 8x8 |
+|---------|---------|---------|
+| ![Alt text](https://raw.githubusercontent.com/reedbryan/CosmicCrucible/main/Assets/Sprites/UI/ReadmeScreenShots/collisionSC4.png) | ![Alt text](https://raw.githubusercontent.com/reedbryan/CosmicCrucible/main/Assets/Sprites/UI/ReadmeScreenShots/collisionSC5.png) | ![Alt text](https://raw.githubusercontent.com/reedbryan/CosmicCrucible/main/Assets/Sprites/UI/ReadmeScreenShots/collisionSC6.png) |
 
 ### AI algorithms
 
