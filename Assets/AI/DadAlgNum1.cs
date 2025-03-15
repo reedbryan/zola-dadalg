@@ -29,7 +29,7 @@ public class DadAlgNum1 : MonoBehaviour
     {
         List<Vector4> allMoves = Restrictions.FindAllMovesV4(color); // all legal moves for <color> team
         Vector4 bestMove = new Vector4(0, 0, 0, 0);
-        float highestDFCScore = -1000000f;
+        float highestDFCScore = float.NegativeInfinity;
 
         foreach (var move in allMoves)
         {

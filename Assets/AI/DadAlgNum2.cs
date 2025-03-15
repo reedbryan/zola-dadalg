@@ -104,7 +104,7 @@ public class DadAlgNum2 : MonoBehaviour
 
         // Create list off all current moves for on color pieces
         List<int[]> allLegalMoves = Restrictions.FindAllMovesV5(color);
-        float highestBestEnemyDFCScore = -100000f; // The highest of all the best enemy scores
+        float highestBestEnemyDFCScore = float.NegativeInfinity; // The highest of all the best enemy scores
         Vector4 bestMove = Vector4.zero;
 
         foreach (var move in allLegalMoves) // Friendly moves
@@ -157,31 +157,6 @@ public class DadAlgNum2 : MonoBehaviour
                     //Debug.Log("Old: " + bestEnemyDFCScore + "   New: " + newDFCScore);
                     bestEnemyDFCScore = newDFCScore;
                 }
-
-                // OLD
-                /*
-                if (i == 0)
-                {
-                    List<Vector2> newBoardState_offColorPieces = offColorPieces;
-                    newBoardState_offColorPieces.Remove(new Vector2(move2.x, move2.y));
-                    newBoardState_offColorPieces.Add(new Vector2(move2.z, move2.w));
-
-                    newScore = Efficient_GetDFCScore(newBoardState_onColorPieces, newBoardState_offColorPieces);
-                    lastScore = newScore;
-                }
-                else
-                {
-                    float DFCScoreToRemouve = BS.DFCFromVec2(new Vector2(move2.x, move2.y));
-                    float DFCScoreToAdd = BS.DFCFromVec2(new Vector2(move2.z, move2.w));
-                    newScore = lastScore + DFCScoreToAdd - DFCScoreToRemouve;
-                }
-
-                if (newScore >= newHighestEnemyDFCScore)
-                    newHighestEnemyDFCScore = newScore;
-
-                i++;
-                */
-
             }
 
             if (bestEnemyDFCScore >= highestBestEnemyDFCScore)
