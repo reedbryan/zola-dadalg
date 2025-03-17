@@ -1,7 +1,8 @@
-# zola-dadalg
+# Zola Dadalg
 This project is an implementation of a niche board game called Zola. It Includes two AI opponents with algorithms proposed to me by my Dad. 
 
 [Play Online](https://simmer.io/@reedoover/zola-with-bots)
+
 [Download](https://reedoover.itch.io/zola)
 
 I’d like to make it clear that I don’t take any credit for the game of Zola itself, only this program. The original board game Zola was created by Mark Steere and can be played online on his [website](https://boardgamegeek.com/boardgame/331666/zola). My motivation for the project started with my Dad who had been playing Zola consistently online for a week or two back in 2022. He is a math professor and would analyze these types of games, coming up with algorithms to try and solve them. Thus my inspiration for this project. I was already into Unity at the time so I decided to try building my own version of the game he and I could play and together and implement his algorithms. The two AIs playable in this program are both based on algorithms he proposed, edited to fit the project's semantics. The files for the "easy" and "hard" AIs are still named “DadAlgNum1” and “DadAlgNum2” in the final build of the game which I think is pretty funny.
