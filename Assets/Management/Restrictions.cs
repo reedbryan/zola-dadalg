@@ -289,8 +289,8 @@ public class Restrictions : MonoBehaviour
     }
 
     /// <summary>
-    /// Returns all posible moves in Vector4 form where (x, y) is current position,
-    /// (z, w) is target position
+    /// Returns all posible moves for the passed color. Returns a list of Vector4s where (x, y) is the piece's current position and
+    /// (z, w) is the target position.
     /// </summary>
     /// <param name="color"></param>
     /// <returns></returns>
