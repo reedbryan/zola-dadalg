@@ -45,7 +45,7 @@ The "possible moves" counter (found in the top left), uses logic from the AI alg
 
 ### **Movement Restrictions**
 
-Movement restrictions in Zola ensure that players adhere to specific rules when selecting and moving pieces, preserving the integrity and strategic depth of gameplay. Restrictions are divided into two primary types: capturing moves and non-capturing moves.
+Zola's complex movement system meant movement restrictions were a key implementation for this project. The [Restrictions.cs](https://github.com/reedbryan/zola-dadalg/blob/main/Assets/Management/Restrictions.cs) script, ensures that players adhere to the correct rules when selecting and moving pieces, preserving the integrity and strategic depth of gameplay. Zola's movement restrictions are divided into two primary types: capturing moves and non-capturing moves.
 
 #### **Capturing Moves**
 A capturing move occurs when a player attempts to take control of an opponent's occupied tile. To be valid, capturing moves must adhere to the following conditions:
@@ -56,7 +56,7 @@ A capturing move occurs when a player attempts to take control of an opponent's 
 - The piece must move towards or maintain an equal distance from the board's center (DFC). Moving closer to the center than the starting position is illegal.
 - No piece can jump over another piece (blocking pieces make the move illegal).
 
-An example of this is  the `CapturingMove` function of [Restrictions.cs](https://github.com/reedbryan/zola-dadalg/blob/main/Assets/Management/Restrictions.cs) which evaluates the legality of a capture. This code snip is one of the checks done in `CapturingMove` to make sure the pieces aren't being skipped over.
+An example the implementation of a restriction can be seen below as part the `CapturingMove` function of [Restrictions.cs](https://github.com/reedbryan/zola-dadalg/blob/main/Assets/Management/Restrictions.cs) evaluates the legality of a capture by making sure there are no pieces being jumped over. This code snip is only one of the numerous the checks done in `CapturingMove`.
 
 ```c#
 // Blocking piece check
