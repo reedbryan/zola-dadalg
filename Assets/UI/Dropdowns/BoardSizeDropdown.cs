@@ -9,7 +9,7 @@ public class BoardSizeDropdown : MonoBehaviour
     public DrawBoard DB;
 
     void Start(){
-        ThisDropdown.value = 0;
+        ThisDropdown.value = 1;
     }
 
     public void OnDDChange(){        
