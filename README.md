@@ -1,7 +1,7 @@
 # Zola Dadalg
 This project is an implementation of a niche board game called Zola. It includes two AI opponents with algorithms proposed to me by my Dad. 
 
-[Play Online](https://simmer.io/@reedoover/zola-with-bots)
+[Play Online](https://zola-dadalg.netlify.app/)
 
 [Download](https://reedoover.itch.io/zola)
 
